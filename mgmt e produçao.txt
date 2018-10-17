@@ -1,4 +1,5 @@
 ------MGMT-------
+
 CMS - Content Manegment Server - Servidor de Gerenciamento de conteudo
 
 -------Dentro do CMS-----------
@@ -30,3 +31,11 @@ Responsavel pela apresentação
 DSM - Dynamic Site Module -  Integração do WEM/Vingnett com o Preview
 
 Servidor de Aplicação Ex: Jboss,TomCat EE,Websphere,Web Logic
+
+--------Integração Dev - Homol - Produção -----------------
+
+Shell Script - Importação/Exportação
+
+ou
+
+Ferramenta - Motion
