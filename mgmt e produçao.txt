@@ -1,16 +1,28 @@
+----------------WEM-------------
+
+- Wem Expirience Manegment
+
+----------Vantagens do WEM--------- 
+
+- Caheamento de componentes da pagina 
+
+- Escalabilidade da aplicação
+
+- Gestao de Conteudos Dinamicos
+
 ------MGMT-------
 
 CMS - Content Manegment Server - Servidor de Gerenciamento de conteudo
 
 -------Dentro do CMS-----------
 
-VCN Admin - Aplicação Web porta: 27055
+VCN Admin - Servidor de Aplicação do WEM/Vingnett porta: 27055
 
-VCM Server - Runtime Service - Servidor de Aplicação do WEM/Vingnett - porta: 27001 
+VCM Server - Runtime Service - Deploy do WEM - porta: 27001 
 
 Deploy Agent - Da - Persistencia no Banco de Dados - porta: 27155
 
-Node Manager - Visualizador de VMs em outras maquinas - porta: 27155
+Node Manager - Serviço que inicia as Vmsq - porta: 27155
 
 ------LIVE/PRODUÇÃO--------
 
@@ -20,7 +32,7 @@ CDS - Content Delivery Server - Servidor de entrega de conteúdo
 Libs
 Binarios
 Cfg agent
-Deploy Agent - Da - Persistencia no Banco de Dados
+Deploy Agent - Da - Serviço de Persistencia no Banco de Dados e Conexao com o Banco
 
 -------Servidor de Preview-------
 
@@ -39,3 +51,18 @@ Shell Script - Importação/Exportação
 ou
 
 Ferramenta - Motion
+
+------------Outras Coisas---------------
+- vignett - nome  antigo do wem
+
+- contet tipe - tabela no banco
+
+- bin - classe com atributos
+
+- Wem vantagens - fazer qualquer tipo de modulo
+
+- AppConsole - area de dev
+
+- Portal - facilitador, coisas pre moldadas
+
+- Ear - coleção de war
