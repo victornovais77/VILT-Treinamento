@@ -1,0 +1,32 @@
+------MGMT-------
+CMS - Content Manegment Server - Servidor de Gerenciamento de conteudo
+
+-------Dentro do CMS-----------
+
+VCN Admin - Aplicação Web porta: 27055
+
+VCM Server - Runtime Service - Servidor de Aplicação do WEM/Vingnett - porta: 27001 
+
+Deploy Agent - Da - Persistencia no Banco de Dados - porta: 27155
+
+Node Manager - Visualizador de VMs em outras maquinas - porta: 27155
+
+------LIVE/PRODUÇÃO--------
+
+CDS - Content Delivery Server - Servidor de entrega de conteúdo
+
+----------Dentro do CDS----------
+Libs
+Binarios
+Cfg agent
+Deploy Agent - Da - Persistencia no Banco de Dados
+
+-------Servidor de Preview-------
+
+Responsavel pela apresentação
+
+-------Dentro Servidor de Preview-------
+
+DSM - Dynamic Site Module -  Integração do WEM/Vingnett com o Preview
+
+Servidor de Aplicação Ex: Jboss,TomCat EE,Websphere,Web Logic
