@@ -1,14 +1,17 @@
-----------------WEM-------------
+--------------WEM-------------
 
-- Wem Expirience Manegment
+- WEM - Expirience Manegment
+
+- Ferramenta que fornece recurso para gerenciamento de conteudo
+  sem a necessidade de conhecer programação.
 
 ----------Vantagens do WEM--------- 
+
+- Gestao de Conteudos Dinamicos
 
 - Caheamento de componentes da pagina 
 
 - Escalabilidade da aplicação
-
-- Gestao de Conteudos Dinamicos
 
 ------MGMT-------
 
@@ -20,9 +23,9 @@ VCN Admin - Servidor de Aplicação do WEM/Vingnett porta: 27055
 
 VCM Server - Runtime Service - Deploy do WEM - porta: 27001 
 
-Deploy Agent - Da - Persistencia no Banco de Dados - porta: 27155
+Deploy Agent - Da - Serviço de Persistencia no Banco de Dados e Conexao com o Banco de Dados - porta: 27155
 
-Node Manager - Serviço que inicia as Vmsq - porta: 27155
+Node Manager - Serviço que permite a comunicação entre o VCN Admin e outros nodes para startar VMs em outros computadores - porta: 27155
 
 ------LIVE/PRODUÇÃO--------
 
@@ -32,32 +35,49 @@ CDS - Content Delivery Server - Servidor de entrega de conteúdo
 Libs
 Binarios
 Cfg agent
-Deploy Agent - Da - Serviço de Persistencia no Banco de Dados e Conexao com o Banco
+Deploy Agent - Da - Serviço de Persistencia no Banco de Dados e Conexao com o Banco de Dados
 
 -------Servidor de Preview-------
 
-Responsavel pela apresentação
+- Responsavel pela apresentação
 
 -------Dentro Servidor de Preview-------
 
 DSM - Dynamic Site Module -  Integração do WEM/Vingnett com o Preview
 
-Servidor de Aplicação Ex: Jboss,TomCat EE,Websphere,Web Logic
+Servidor de Aplicação Ex: Jboss,TomCat EE,Websphere, Web Logic - Roda o vgn-ext-templating.war "Motor do WEM"
 
 --------Integração Dev - Homol - Produção -----------------
 
-Shell Script - Importação/Exportação
+Shell Script - Importação/Exportação - vgnimport/vgnexport
 
 ou
 
 Ferramenta - Motion
 
+----------Criação de Conteudo--------------
+
+- Levanta Requisitos
+
+- Cria Tabela
+
+- Cria Entidades
+
+---------Apresentação---------
+
+- Theme - Arquivos estaticos - js, css, imagens e etc 
+
+- Layout - Define quais regions aparecem
+
+- Templete - Container - todas as regions
+
 ------------Outras Coisas---------------
-- vignett - nome  antigo do wem
 
-- contet tipe - tabela no banco
+- Vignett - Nome antigo do WEM
 
-- bin - classe com atributos
+- Contet tipe - Tabela no banco
+
+- Bin - classe com atributos
 
 - Wem vantagens - fazer qualquer tipo de modulo
 
